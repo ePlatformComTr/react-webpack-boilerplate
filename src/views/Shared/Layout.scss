@@ -1,0 +1,26 @@
+main{
+  width: 500px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.layout-nav{
+  list-style: none;
+  margin: 0 0 40px 0;
+  padding: 0;
+  &:before, &:after{
+    display: table;
+    content: ' ';
+    clear: both;
+  }
+  li{
+    float: left;
+    button{
+      background-color: #555;
+      color: #fff;
+      padding: 15px;
+      border: solid 1px #ccc;
+    }
+  }
+}
