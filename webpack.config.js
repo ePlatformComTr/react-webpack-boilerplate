@@ -11,12 +11,12 @@ module.exports =
   },
   output: { path: __dirname, filename: 'bundle.js' },
   plugins: [
-    new OpenBrowserPlugin({ url: 'http://localhost:3333' })
+    new OpenBrowserPlugin({ url: 'http://localhost:1991' })
   ],
   devServer: {
     inline: true,
     contentBase: './src',
-    port: 3333
+    port: 1991
   },
   module: {
     loaders: [
